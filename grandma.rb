@@ -4,7 +4,7 @@ def speak_to_grandma(response)
     return "I LOVE YOU TOO PUMPKIN!"
   elsif !response.upcase
     return "HUH?! SPEAK UP, SONNY!"
-  else
+  elseif response.upcase
     return "NO, NOT SINCE 1938!"
   end
 end
